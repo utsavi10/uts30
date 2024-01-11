@@ -43,10 +43,11 @@ Partial Class Form1
         '
         'TextBox1
         '
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(12, 38)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(372, 81)
+        Me.TextBox1.Size = New System.Drawing.Size(326, 81)
         Me.TextBox1.TabIndex = 0
         '
         'Button1
@@ -202,7 +203,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(401, 457)
+        Me.ClientSize = New System.Drawing.Size(352, 457)
         Me.Controls.Add(Me.Button16)
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
